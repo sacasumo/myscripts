@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#636363"
+  handle_size = 4
+[keybindings]
+  cycle_prev = <Ctrl>Page_Up
+  new_tab = <Ctrl>T
+  next_tab = <Ctrl>Tab
+  cycle_next = <Ctrl>Page_Down
+  prev_tab = <Ctrl><Shift>Tab
+[profiles]
+  [[default]]
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    background_darkness = 0.51
+    scrollback_lines = 5000
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#00c4ff"
+    foreground_color = "#b2fff4"
+    font = Liberation Mono 14
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
